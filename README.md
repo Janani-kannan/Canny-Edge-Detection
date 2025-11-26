@@ -1,7 +1,7 @@
 
 # WORK SHOP-03: CANNY EDGE DETECTION
-### Name: M.Mounika
-### Register no: 212224040202
+### Name: JANANI K
+### Register no: 212224230102
 
 # AIM:
 To perform Canny Edge Detection model through your laptop.
@@ -12,7 +12,7 @@ import cv2
 import matplotlib.pyplot as plt
 ```
 ```
-img = cv2.imread('myphoto.jpg',cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("C:\\Users\\admin\\Downloads\\janani.jpg")
 ```
 ```
 blurred =cv2.GaussianBlur(img, (5,5),0)
@@ -29,5 +29,7 @@ plt.title('Detected Edges'), plt.axis('off')
 plt.show()
 ```
 # OUTPUT:
-<img width="957" height="538" alt="Screenshot 2025-10-14 233227" src="https://github.com/user-attachments/assets/7be39a5e-c3f4-4ce3-98a5-284bd3c7c28f" />
+
+<img width="851" height="426" alt="image" src="https://github.com/user-attachments/assets/17a0e37a-4638-47ca-a151-8c1a41fd9b78" />
+
 
